@@ -10,7 +10,8 @@ using System.Windows.Forms;
 
 namespace CustomControl
 {
-    internal class RoundedPanel : Panel
+    [ToolboxItem(true)]
+    public class RoundedPanel : Panel
     {
         private int borderRadius = 20;
         private Color borderColor = Color.Black;
